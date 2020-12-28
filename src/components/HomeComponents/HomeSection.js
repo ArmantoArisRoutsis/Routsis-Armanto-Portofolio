@@ -8,9 +8,9 @@ function HomeSection() {
     }, [])
 
     return (
-        <section data-aos="fade-up" class="home-section" >
-            <div class="home-title">
-                <h1 id="home">Hi,<br/>
+        <section data-aos="fade-up" class="home-section">
+            <div id="home" class="home-title">
+                <h1>Hi,<br/>
                 I'm <span class="home-title-color">Armanto,</span><br/>
                 a Software Developer
                 </h1>

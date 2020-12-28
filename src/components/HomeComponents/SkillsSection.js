@@ -9,7 +9,7 @@ const SkillsSections =()=> {
                 <h2 class="section-title">Skills</h2>
                 <div class="skills-info">
                     <h2 class="skills__subtitle">Profesional Skills</h2>
-                    <p class="skills-info">These are some of the technologies that I have worked on and built projects with.</p>
+                    <p>These are some of the technologies that I have worked on and built projects with.</p>
                 </div>
                 <div class="skills__container bd-grid">      
                     <div>

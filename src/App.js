@@ -7,12 +7,13 @@ import HomePage from "./components/HomePage"
 import CerificationsPage from "./components/CerificationsPage"
 
 const App =()=> {
+
   return (
     <Router>
       <Navbar/>
         <Switch>
           <Route path="/" exact component={HomePage}/>
-          <Route path="https://routsis-armanto.netlify.app/certifications" exact component={CerificationsPage}/>
+          <Route path="/certifications" exact component={CerificationsPage}/>
         </Switch>
       <Footer/>
     </Router>

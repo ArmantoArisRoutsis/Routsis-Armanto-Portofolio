@@ -326,7 +326,7 @@ img {
   row-gap: 2rem;
 }
 
-.work__img {
+/* .work__img {
   box-shadow: 0 4px 25px rgba(14, 36, 49, .15);
   border-radius: .5rem;
   overflow: hidden;
@@ -339,7 +339,7 @@ img {
 
 .work__img img:hover {
   transform: scale(1.1);
-}
+} */
 
 /* CONTACT */
 .contact__input {
@@ -413,6 +413,9 @@ img {
   margin-top: 0;
 }
 
+.embeded-link{
+  color: chartreuse;
+}
 /* MEDIA QUERIES */
 @media screen and (min-width: 768px) {
   body {
@@ -511,7 +514,4 @@ img {
     margin-left: auto;
     margin-right: auto;
   }
-}
-
-.modal-content{
 }

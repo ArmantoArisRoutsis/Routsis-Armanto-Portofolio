@@ -18,12 +18,12 @@ const sideDrawer = props => {
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
-                        <li class="nav__item"><a href="/#home" class="nav__link">Home</a></li>
-                        <li class="nav__item"><a href="/#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="/#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="/#work" class="nav__link">Work</a></li>
-                        <li class="nav__item"><a href="/#contact" class="nav__link">Contact</a></li>
-                        <li class="nav__item"><a href="/certifications" class="nav__link">Certifications</a></li>
+                        <li class="nav__item"><a href="/#home" class="nav__link" onClick={props.closeDrawer}>Home</a></li>
+                        <li class="nav__item"><a href="/#about" class="nav__link" onClick={props.closeDrawer}>About</a></li>
+                        <li class="nav__item"><a href="/#skills" class="nav__link" onClick={props.closeDrawer}>Skills</a></li>
+                        <li class="nav__item"><a href="/#work" class="nav__link" onClick={props.closeDrawer}>Work</a></li>
+                        <li class="nav__item"><a href="/#contact" class="nav__link" onClick={props.closeDrawer}>Contact</a></li>
+                        <li class="nav__item"><a href="/certifications" class="nav__link" onClick={props.closeDrawer}>Certifications</a></li>
                     </ul>
                 </div>
 
