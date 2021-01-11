@@ -1,10 +1,18 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 
 import "./ProjectCard.css"
+import Aos from 'aos';
+import "aos/dist/aos.css";
 
 const ProjectCard =({imageLink,title,info,githubLink,liveLink,imageFloat})=> {
+
+    useEffect(() => {
+        Aos.init({duration:1000});
+    }, [])
+
+
     return (
-        <div className="whole-card">
+        <div className="whole-card" data-aos="fade-up">
         <article className="project-card-container">
             <img src={imageLink} style={{float:imageFloat}} alt={title}/>
             <div className="all-card-info">
@@ -17,8 +25,8 @@ const ProjectCard =({imageLink,title,info,githubLink,liveLink,imageFloat})=> {
             </div> */}
         </article>
         <div className="project-card-button">
-                    <a href={githubLink}>Github Repository</a>
-                    <a href={liveLink}>Live Version</a>
+                    <a target="_blank" href={githubLink}>Github Repository</a>
+                    <a target="_blank" href={liveLink}>Live Version</a>
             </div>
         </div>
     )

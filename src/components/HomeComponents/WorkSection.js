@@ -1,12 +1,19 @@
-import React,{useState} from 'react'
+import React,{useEffect} from 'react'
 
 import ProjectCard from "./WorkSection/ProjectCard"
 
+import Aos from 'aos';
+import "aos/dist/aos.css";
+
 const WorkSection =()=> {
+
+    useEffect(() => {
+        Aos.init({duration:1000});
+    }, [])
 
     return (
        <section class="work section" id="work">
-                <h2 class="section-title">Work</h2>
+                <h2 class="section-title" data-aos="fade-up">Work</h2>
                     <ProjectCard
                         title={"Bibliotopia"}
                         imageFloat="right"

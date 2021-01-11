@@ -1,15 +1,22 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 
 import Skill_Item from "../Shared/Skill_Item"
 
+import Aos from 'aos';
+import "aos/dist/aos.css";
+
 const SkillsSections =()=> {
+
+    useEffect(() => {
+        Aos.init({duration:1000});
+    }, [])
     
     return (
         <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
+                <h2 data-aos="fade-up" class="section-title">Skills</h2>
                 <div class="skills-info">
-                    <h2 class="skills__subtitle">Profesional Skills</h2>
-                    <p>These are some of the technologies that I have worked on and built projects with.</p>
+                    <h2  data-aos="fade-up" class="skills__subtitle">Profesional Skills</h2>
+                    <p data-aos="fade-up">These are some of the technologies that I have worked on and built projects with.</p>
                 </div>
                 <div class="skills__container bd-grid">      
                     <div>
