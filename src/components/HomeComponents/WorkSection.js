@@ -77,11 +77,17 @@ const WorkSection =()=> {
                     <ProjectCard
                         title={"The Monster Library"}
                         imageFloat={"left"}
-                        imageLink={"/Assets/projectImages/MonGen.png"}
-                        info="This is a Website were users can input information about a monster they want and add it to the database of the website. The 
-                        Frontend was created using React.js and the Backend API was made using Node.js&Express.js. Finaly I used MongoDB as my database."
+                        imageLink={"/Assets/projectImages/MonsterLibrary.png"}
+                        info={<a>This is a Website were users can input information about a monster they want and add it to the database of the website. 
+                        Every user can add information such as the monster name, it's origin, the type, a description and an image. Additionaly after a monster
+                        is created the user has the option to edit the information that he previously inputed or if they wish to they can delete the monster.
+                        <br/><br/>
+                        The Client part of the applications was created mainly using React.js. For the styling I used plain CSS for the most part except for
+                        some of the scroll animations for which I used the React Aos library. The Backend API was made using Node.js & 
+                        Express.js. Finaly the I choose mongoDB as the database to store 
+                        all the information.</a>}
                         githubLink = {"https://github.com/ArmantoArisRoutsis/Wetheria"}
-                        liveLink = {"https://the-monster-library.web.app/"}
+                        liveLink = {"https://the-monster-library.web.app/fechedmons"}
                     />
 
             </section> 
