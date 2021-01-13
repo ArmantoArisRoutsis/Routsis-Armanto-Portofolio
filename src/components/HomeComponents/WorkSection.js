@@ -51,8 +51,8 @@ const WorkSection =()=> {
                         For this version remade the majority of the portofolio with React instead. All of the sections are split into components as well as the Navigation 
                         Bar and the Footer. Then some parts of some sections are also made into components for easier managment and for reusability purposes.
                         For some of the animations I used the React AOS library and for others I just used plain CSS.</p>}
-                        githubLink = {"https://routsis-armanto.web.app"}
-                        liveLink = {"https://afternoon-lake-67823.herokuapp.com/"}
+                        githubLink = {"https://github.com/ArmantoArisRoutsis/Routsis-Armanto-Portofolio"}
+                        liveLink = {"https://routsis-armanto.web.app"}
                     />
 
                     <ProjectCard
