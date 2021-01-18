@@ -17,12 +17,14 @@ const WorkSection =()=> {
                     <ProjectCard
                         title={"Bibliotopia"}
                         imageFloat="right"
-                        imageLink={"/Assets/projectImages/Bibliotopia.png"}
-                        info={<p>This Web App is a place where people can share their favoirite books. They can share information such as the title, 
-                        a book Cover, the author, number of pages as well as a short description.<br/><br/>
-                        The Front-end of the application was created with CSS,JS and React.js.</p>}
+                        imageLink={"/Assets/projectImages/bibliotopia.png"}
+                        info={<p>This is a FullStack Wep Application where users can add their book recomendations. They can 
+                        input information such as the book author, the book title, a description and an image. Users can also update their 
+                        posts or delete them as well as like posts made by them or other users.<br/><br/>
+                        The Front-end of the application was created with React. For the styling I mainly used CSS and the Material-UI library. As for state managment Redux was used.
+                        The Back-End of the applicationwas build with Node and Express. The database used to hold all of the information is MongoDB.</p>}
                         githubLink = {"https://github.com/ArmantoArisRoutsis/Bibliotopia"}
-                        liveLink = {"https://u7kpv.csb.app/"}
+                        liveLink = {"https://bibliotopia-ea7bb.web.app/"}
                     />
 
                     <ProjectCard

@@ -12,8 +12,9 @@
 
 .project-card-button a{
     text-align: center;
-    color: chartreuse;
-    border: 2px solid chartreuse;
+    color: #0dad8b;
+    border: 2px solid #0dad8b;
+    border-radius: 5px;
     padding: 5px;
     margin: 10px;
     font-weight: bold;
@@ -21,8 +22,8 @@
 }
 
 .project-card-button a:hover{
-    background-color: chartreuse;
-    color: rgb(53, 15, 143);
+    background-color: #0dad8b;
+    color: rgb(231, 240, 112);
 }
 
 

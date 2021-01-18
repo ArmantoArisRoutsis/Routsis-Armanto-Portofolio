@@ -25,10 +25,12 @@ const SkillsSections =()=> {
                         <Skill_Item icon={"fa-brands:js-square"} name="JavaScript"/>
                         <Skill_Item icon={"ion:logo-nodejs"} name="Node.js & Exprress.js"/>
                         <Skill_Item icon={"cib:python"} name="Python"/>
+                        {/* <Skill_Item icon={"cib:flask"} name="Flask"/> */}
                     </div>
                     <div>
-                        <Skill_Item icon={"mdi:language-ruby-on-rails"} name="Ruby & Rails"/>
+                        {/* <Skill_Item icon={"mdi:language-ruby-on-rails"} name="Ruby & Rails"/> */}
                         <Skill_Item icon={"mdi:react"} name="React.js"/>
+                        <Skill_Item icon={"cib:redux"} name="Redux"/>
                         <Skill_Item icon={"file-icons:nextjs"} name="Next.js"/>
                         <Skill_Item icon={"cib:mysql"} name="MMySQL"/>
                         <Skill_Item icon={"cib:mongodb"} name="MongoDB"/>
