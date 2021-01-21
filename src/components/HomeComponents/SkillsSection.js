@@ -12,29 +12,25 @@ const SkillsSections =()=> {
     }, [])
     
     return (
-        <section class="skills section" id="skills">
-                <h2 data-aos="fade-up" class="section-title">Skills</h2>
-                <div class="skills-info">
-                    <h2  data-aos="fade-up" class="skills__subtitle">Profesional Skills</h2>
+        <section className="skills section" id="skills">
+                <h2 data-aos="fade-up" className="section-title">Skills</h2>
+                <div className="skills-info">
+                    <h2  data-aos="fade-up" className="skills__subtitle">Profesional Skills</h2>
                     <p data-aos="fade-up">These are some of the technologies that I have worked on and built projects with.</p>
                 </div>
-                <div class="skills__container bd-grid">      
-                    <div>
+                <div class="new-skills-grid">
                         <Skill_Item icon={"ant-design:html5-filled"} name="HTML5"/>
                         <Skill_Item icon={"uil:html3"} name="CSS3"/>
                         <Skill_Item icon={"fa-brands:js-square"} name="JavaScript"/>
                         <Skill_Item icon={"ion:logo-nodejs"} name="Node.js & Exprress.js"/>
                         <Skill_Item icon={"cib:python"} name="Python"/>
-                        {/* <Skill_Item icon={"cib:flask"} name="Flask"/> */}
-                    </div>
-                    <div>
-                        {/* <Skill_Item icon={"mdi:language-ruby-on-rails"} name="Ruby & Rails"/> */}
+                        <Skill_Item icon={"cib:flask"} name="Flask"/>
+                        <Skill_Item icon={"mdi:language-ruby-on-rails"} name="Ruby & Rails"/>
                         <Skill_Item icon={"mdi:react"} name="React.js"/>
                         <Skill_Item icon={"cib:redux"} name="Redux"/>
                         <Skill_Item icon={"file-icons:nextjs"} name="Next.js"/>
                         <Skill_Item icon={"cib:mysql"} name="MMySQL"/>
                         <Skill_Item icon={"cib:mongodb"} name="MongoDB"/>
-                    </div>
                 </div>
             </section>
     )
