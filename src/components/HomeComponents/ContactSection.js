@@ -11,7 +11,7 @@ const ContactSection = () => {
                         <textarea type="text" name="comment" cols="0" rows="10" class="contact__input"/>
                         <input type="submit" value="Send" class="contact__button button"/>
                     </form> */}
-                    <a href="mailto:ar.routsis@gmail.com" class="button" style={{textAlign:"center"}}>ar.routsis@gmail.com</a>
+                    <a href="mailto:ar.routsis@gmail.com" class="button" style={{marginBottom:"150px",textAlign:"center"}}>ar.routsis@gmail.com</a>
                 </div>
         </section>
     )
