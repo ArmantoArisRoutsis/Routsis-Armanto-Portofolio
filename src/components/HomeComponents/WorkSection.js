@@ -93,7 +93,7 @@ const WorkSection =()=> {
                         <br/><br/>
                         The Client part of the applications was created mainly using React.js. For the styling I used plain CSS for the most part except for
                         some of the scroll animations for which I used the React Aos library. The Backend API was made using Node.js & 
-                        Express.js. Finaly the I choose mongoDB as the database to store 
+                        Express.js. Finaly the I chose mongoDB as the database to store 
                         all the information.</a>}
                         githubLink = {"https://github.com/ArmantoArisRoutsis/Wetheria"}
                         liveLink = {"https://the-monster-library.web.app/fechedmons"}
