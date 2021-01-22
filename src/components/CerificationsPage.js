@@ -17,6 +17,7 @@ const CerificationsPage = () => {
                          />
 
                 <div class="certifications-container bd-grid">
+                    <CertificationItem imageLink="/Assets/cetrificationImages/Freecodecamp_Front_End_Libraries.png" link={"https://www.freecodecamp.org/certification/fcca03d2f11-fa19-496a-8326-1911ac37aaa3/front-end-libraries"}/>
                     <CertificationItem imageLink="/Assets/cetrificationImages/Freecodecamp_Data_Structures_and_Algorithms.png" link={"https://www.freecodecamp.org/certification/fcca03d2f11-fa19-496a-8326-1911ac37aaa3/javascript-algorithms-and-data-structures"}/>
                     <CertificationItem imageLink="/Assets/cetrificationImages/CC_WEBDEV_CPATH.png" link={"https://www.codecademy.com/profiles/ArmantoRoutsis"}/>
                     <CertificationItem imageLink="/Assets/cetrificationImages/CC_COMPSCIENCE_CPATH.png" link={"https://www.codecademy.com/profiles/ArmantoRoutsis"}/>
