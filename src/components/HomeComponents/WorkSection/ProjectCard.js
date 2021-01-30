@@ -26,7 +26,7 @@ const ProjectCard =({imageLink,title,info,githubLink,liveLink,imageFloat})=> {
         </article>
         <div className="project-card-button">
                     <a target="_blank" href={githubLink}>Github Repository</a>
-                    <a target="_blank" href={liveLink}>Live Version</a>
+                    {liveLink&&<a target="_blank" href={liveLink}>Live Version</a>}
             </div>
         </div>
     )

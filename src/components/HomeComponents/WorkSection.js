@@ -28,19 +28,21 @@ const WorkSection =()=> {
                     />
 
                     <ProjectCard
-                        title={"To Do List"}
-                        imageFloat="left"
-                        imageLink={"/Assets/projectImages/ToDoList.png"}
-                        info={<p>This is my Version of the classic To-Do-List. The application allows the users to add 
-                        and remove items from "a default list". Aside from that the user 
-                        is also given the option to create multiple other lists.<br/><br/>
-                        I made this web application using Node.js & Express.js 
-                        for the backend. For the database I used MongoDB. As for 
-                        the front end I used basic HTML5 & CSS3along with 
-                        EJS for dynamic templating.</p>}
-                        githubLink = {"https://github.com/ArmantoArisRoutsis/ToDoList"}
-                        liveLink = {"https://afternoon-lake-67823.herokuapp.com/"}
+                        title={"The Monster Library"}
+                        imageFloat={"left"}
+                        imageLink={"/Assets/projectImages/MonsterLibrary.png"}
+                        info={<a>This is a Website were users can input information about a monster they want and add it to the database of the website. 
+                        Every user can add information such as the monster name, it's origin, the type, a description and an image. Additionaly after a monster
+                        is created the user has the option to edit the information that he previously inputed or if they wish to they can delete the monster.
+                        <br/><br/>
+                        The Client part of the applications was created mainly using React.js. For the styling I used plain CSS for the most part except for
+                        some of the scroll animations for which I used the React Aos library. The Backend API was made using Node.js & 
+                        Express.js. Finaly the I chose mongoDB as the database to store 
+                        all the information.</a>}
+                        githubLink = {"https://github.com/ArmantoArisRoutsis/Wetheria"}
+                        liveLink = {"https://the-monster-library.web.app/fechedmons"}
                     />
+
 
                     <ProjectCard
                         title={"Portofolio Website"}
@@ -58,16 +60,18 @@ const WorkSection =()=> {
                     />
 
                     <ProjectCard
-                        title={"Wetheria"}
-                        imageFloat={"left"}
-                        imageLink={"/Assets/projectImages/WeatherApp.png"}
-                        info="This application utilizes the open weather api to fetch infrormation such as weather 
-                        in three different metrics, location as well as the icons used to display how the weather 
-                        looks like. The stack used for the creation of this app was Node and Express on the backend 
-                        and html and css along with Ejs for rendering on the front end."
-                        githubLink = {"https://github.com/ArmantoArisRoutsis/Wetheria"}
+                        title={"Task Manager"}
+                        imageFloat="left"
+                        imageLink={"/Assets/projectImages/TaskManager.png"}
+                        info={<p>This is a FullStack Wep Application where users can add their book recomendations. They can 
+                        input information such as the book author, the book title, a description and an image. Users can also update their 
+                        posts or delete them as well as like posts made by them or other users.<br/><br/>
+                        The Front-end of the application was created with React. For the styling I mainly used CSS and the Material-UI library. As for state managment Redux was used.
+                        The Back-End of the applicationwas build with Node and Express. The database used to hold all of the information is MongoDB.</p>}
+                        githubLink = {"https://github.com/ArmantoArisRoutsis/Task-Manager"}
                         liveLink = {""}
                     />
+
 
                     <ProjectCard
                         title={"Bitcoin Price Tracker"}
@@ -84,19 +88,30 @@ const WorkSection =()=> {
                     />
 
                     <ProjectCard
-                        title={"The Monster Library"}
-                        imageFloat={"left"}
-                        imageLink={"/Assets/projectImages/MonsterLibrary.png"}
-                        info={<a>This is a Website were users can input information about a monster they want and add it to the database of the website. 
-                        Every user can add information such as the monster name, it's origin, the type, a description and an image. Additionaly after a monster
-                        is created the user has the option to edit the information that he previously inputed or if they wish to they can delete the monster.
-                        <br/><br/>
-                        The Client part of the applications was created mainly using React.js. For the styling I used plain CSS for the most part except for
-                        some of the scroll animations for which I used the React Aos library. The Backend API was made using Node.js & 
-                        Express.js. Finaly the I chose mongoDB as the database to store 
-                        all the information.</a>}
+                        title={"To Do List"}
+                        imageFloat="left"
+                        imageLink={"/Assets/projectImages/ToDoList.png"}
+                        info={<p>This is my Version of the classic To-Do-List. The application allows the users to add 
+                        and remove items from "a default list". Aside from that the user 
+                        is also given the option to create multiple other lists.<br/><br/>
+                        I made this web application using Node.js & Express.js 
+                        for the backend. For the database I used MongoDB. As for 
+                        the front end I used basic HTML5 & CSS3along with 
+                        EJS for dynamic templating.</p>}
+                        githubLink = {"https://github.com/ArmantoArisRoutsis/ToDoList"}
+                        liveLink = {"https://afternoon-lake-67823.herokuapp.com/"}
+                    />
+
+                    <ProjectCard
+                        title={"Wetheria"}
+                        imageFloat={"right"}
+                        imageLink={"/Assets/projectImages/WeatherApp.png"}
+                        info="This application utilizes the open weather api to fetch infrormation such as weather 
+                        in three different metrics, location as well as the icons used to display how the weather 
+                        looks like. The stack used for the creation of this app was Node and Express on the backend 
+                        and html and css along with Ejs for rendering on the front end."
                         githubLink = {"https://github.com/ArmantoArisRoutsis/Wetheria"}
-                        liveLink = {"https://the-monster-library.web.app/fechedmons"}
+                        liveLink = {""}
                     />
 
             </section> 
