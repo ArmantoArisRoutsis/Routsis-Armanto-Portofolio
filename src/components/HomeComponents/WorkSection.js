@@ -22,25 +22,9 @@ const WorkSection =()=> {
                         input information such as the book author, the book title, a description and an image. Users can also update their 
                         posts or delete them as well as like posts made by them or other users.<br/><br/>
                         The Front-end of the application was created with React. For the styling I mainly used CSS and the Material-UI library. As for state managment Redux was used.
-                        The Back-End of the applicationwas build with Node and Express. The database used to hold all of the information is MongoDB.</p>}
+                        The Back-End of the application was build with Node and Express. The database used to hold all of the information is MongoDB.</p>}
                         githubLink = {"https://github.com/ArmantoArisRoutsis/Bibliotopia"}
                         liveLink = {"https://bibliotopia-ea7bb.web.app/"}
-                    />
-
-                    <ProjectCard
-                        title={"The Monster Library"}
-                        imageFloat={"left"}
-                        imageLink={"/Assets/projectImages/MonsterLibrary.png"}
-                        info={<a>This is a Website were users can input information about a monster they want and add it to the database of the website. 
-                        Every user can add information such as the monster name, it's origin, the type, a description and an image. Additionaly after a monster
-                        is created the user has the option to edit the information that he previously inputed or if they wish to they can delete the monster.
-                        <br/><br/>
-                        The Client part of the applications was created mainly using React.js. For the styling I used plain CSS for the most part except for
-                        some of the scroll animations for which I used the React Aos library. The Backend API was made using Node.js & 
-                        Express.js. Finaly the I chose mongoDB as the database to store 
-                        all the information.</a>}
-                        githubLink = {"https://github.com/ArmantoArisRoutsis/Wetheria"}
-                        liveLink = {"https://the-monster-library.web.app/fechedmons"}
                     />
 
 
@@ -51,8 +35,8 @@ const WorkSection =()=> {
                         info={<p>This is actually the second Version of my Portofolio. They both look identical with 
                         the exception of some minor layout and animation changes. The main diference comes in the technologies used.
                         The first one was build with HTML, CSS and Vanilla Javascript (If you wish to view the previous version you can visit 
-                        <a target="_blank" className="embeded-link" href="https://armantoarisroutsis.github.io/Routsis_Armanto-Portofolio/"> this link</a>). 
-                        For this version remade the majority of the portofolio with React instead. All of the sections are split into components as well as the Navigation 
+                        <a target="_blank" className="embeded-link" href="https://armantoarisroutsis.github.io/Routsis_Armanto-Portofolio/"> this link</a>). <br/><br/>
+                        For this version I remade the majority of the portofolio with React instead. All of the sections are split into components as well as the Navigation 
                         Bar and the Footer. Then some parts of some sections are also made into components for easier managment and for reusability purposes.
                         For some of the animations I used the React AOS library and for others I just used plain CSS.</p>}
                         githubLink = {"https://github.com/ArmantoArisRoutsis/Routsis-Armanto-Portofolio"}
@@ -63,11 +47,12 @@ const WorkSection =()=> {
                         title={"Task Manager"}
                         imageFloat="left"
                         imageLink={"/Assets/projectImages/TaskManager.png"}
-                        info={<p>This is a FullStack Wep Application where users can add their book recomendations. They can 
-                        input information such as the book author, the book title, a description and an image. Users can also update their 
-                        posts or delete them as well as like posts made by them or other users.<br/><br/>
-                        The Front-end of the application was created with React. For the styling I mainly used CSS and the Material-UI library. As for state managment Redux was used.
-                        The Back-End of the applicationwas build with Node and Express. The database used to hold all of the information is MongoDB.</p>}
+                        info={<p>This is an application where users can create new tasks in order to organise things 
+                        that they have to do. Each task has a title and a description. After creating a task the user 
+                        can add multiple sub-tasks in each task. The user can also edit and delete tasks and sub-tasks.<br/><br/>
+                        The frontend of this application was created mainly with React and for the layout and styling I used Css 
+                        and the Material-UI library. I also used Redux for the state managment. The back end is build on Node.js
+                        and Express.js. The database used to store all of the data is MongoDB.</p>}
                         githubLink = {"https://github.com/ArmantoArisRoutsis/Task-Manager"}
                         liveLink = {""}
                     />
