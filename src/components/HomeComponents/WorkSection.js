@@ -64,11 +64,12 @@ const WorkSection =()=> {
                         title={"Task Manager"}
                         imageFloat="left"
                         imageLink={"/Assets/projectImages/TaskManager.png"}
-                        info={<p>This is a FullStack Wep Application where users can add their book recomendations. They can 
-                        input information such as the book author, the book title, a description and an image. Users can also update their 
-                        posts or delete them as well as like posts made by them or other users.<br/><br/>
-                        The Front-end of the application was created with React. For the styling I mainly used CSS and the Material-UI library. As for state managment Redux was used.
-                        The Back-End of the applicationwas build with Node and Express. The database used to hold all of the information is MongoDB.</p>}
+                        info={<p>This is an application where users can create new tasks in order to organise things that they have to do. Each 
+                        task has a title and a description. After creating a task the user can add multiple sub-tasks in each task. The user can
+                        also edit and delete tasks and sub-tasks.<br/><br/>
+                        The frontend of this application was created mainly with React and for the layout and styling I used Css and the Material-UI 
+                        library. I also used Redux for the state managment. The back end is build on Node.js and Express.js. The database used to 
+                        store all of the data is MongoDB.</p>}
                         githubLink = {"https://github.com/ArmantoArisRoutsis/Task-Manager"}
                         liveLink = {""}
                     />
@@ -76,11 +77,11 @@ const WorkSection =()=> {
                     <ProjectCard
                         title={"Weather Forcasting App"}
                         imageFloat={"right"}
-                        imageLink={"/Assets/projectImages/WeatheriaForcasting.png"}
+                        imageLink={"/Assets/projectImages/WeatheriaForcastingApp.png"}
                         info="This application utilizes the WeatherBit API to fetch infrormation such as weather 
                         in three different metrics, location as well as the icons used to display how the weather 
                         looks like. This applcation was maid mostly with React and Css for the styling."
-                        githubLink = {"https://github.com/ArmantoArisRoutsis/Wetheria"}
+                        githubLink = {"https://github.com/ArmantoArisRoutsis/Weather-Forcasting-App"}
                         liveLink = {"https://weatheria-forcasting.web.app/"}
                     />
 
