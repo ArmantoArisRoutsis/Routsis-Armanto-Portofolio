@@ -51,7 +51,7 @@ const WorkSection =()=> {
                         info={<p>This is actually the second Version of my Portofolio. They both look identical with 
                         the exception of some minor layout and animation changes. The main diference comes in the technologies used.
                         The first one was build with HTML, CSS and Vanilla Javascript (If you wish to view the previous version you can visit 
-                        <a target="_blank" className="embeded-link" href="https://armantoarisroutsis.github.io/Routsis_Armanto-Portofolio/"> this link</a>). 
+                        <a target="_blank" className="embeded-link" href="https://armantoarisroutsis.github.io/Routsis_Armanto-Portofolio/"> this link</a>). <br/><br/>
                         For this version remade the majority of the portofolio with React instead. All of the sections are split into components as well as the Navigation 
                         Bar and the Footer. Then some parts of some sections are also made into components for easier managment and for reusability purposes.
                         For some of the animations I used the React AOS library and for others I just used plain CSS.</p>}
@@ -73,19 +73,15 @@ const WorkSection =()=> {
                         liveLink = {""}
                     />
 
-
                     <ProjectCard
-                        title={"Bitcoin Price Tracker"}
+                        title={"Weather Forcasting App"}
                         imageFloat={"right"}
-                        imageLink={"/Assets/projectImages/BitCoinTracker.png"}
-                        info="This is a little project that I made in order to better understand the 
-                        Next.js framework. The application utilizes the CoinDesk Bitcoin Price Index 
-                        API to track real-time changes of Bitcoin and display it in 3 different 
-                        currencies (USD/GBP/EUR). The reason that this little application came to 
-                        fruition was mentioned above as well, to get a stronger grasp of the Next.js 
-                        framework as well as solidify my React.js knowledge even more."
-                        githubLink = {"https://github.com/ArmantoArisRoutsis/BitPriceTracker"}
-                        liveLink = {""}
+                        imageLink={"/Assets/projectImages/WeatheriaForcasting.png"}
+                        info="This application utilizes the WeatherBit API to fetch infrormation such as weather 
+                        in three different metrics, location as well as the icons used to display how the weather 
+                        looks like. This applcation was maid mostly with React and Css for the styling."
+                        githubLink = {"https://github.com/ArmantoArisRoutsis/Wetheria"}
+                        liveLink = {"https://weatheria-forcasting.web.app/"}
                     />
 
                     <ProjectCard
@@ -102,18 +98,21 @@ const WorkSection =()=> {
                         githubLink = {"https://github.com/ArmantoArisRoutsis/ToDoList"}
                         liveLink = {"https://afternoon-lake-67823.herokuapp.com/"}
                     />
-
+                    
                     <ProjectCard
-                        title={"Wetheria"}
+                        title={"Bitcoin Price Tracker"}
                         imageFloat={"right"}
-                        imageLink={"/Assets/projectImages/WeatherApp.png"}
-                        info="This application utilizes the open weather api to fetch infrormation such as weather 
-                        in three different metrics, location as well as the icons used to display how the weather 
-                        looks like. The stack used for the creation of this app was Node and Express on the backend 
-                        and html and css along with Ejs for rendering on the front end."
-                        githubLink = {"https://github.com/ArmantoArisRoutsis/Wetheria"}
+                        imageLink={"/Assets/projectImages/BitCoinTracker.png"}
+                        info="This is a little project that I made in order to better understand the 
+                        Next.js framework. The application utilizes the CoinDesk Bitcoin Price Index 
+                        API to track real-time changes of Bitcoin and display it in 3 different 
+                        currencies (USD/GBP/EUR). The reason that this little application came to 
+                        fruition was mentioned above as well, to get a stronger grasp of the Next.js 
+                        framework as well as solidify my React.js knowledge even more."
+                        githubLink = {"https://github.com/ArmantoArisRoutsis/BitPriceTracker"}
                         liveLink = {""}
                     />
+
 
             </section> 
     )
