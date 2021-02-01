@@ -15,7 +15,7 @@ const SkillsSections =()=> {
         <section className="skills section" id="skills">
                 <h2 data-aos="fade-up" className="section-title">Skills</h2>
                 <div className="skills-info">
-                    <h2  data-aos="fade-up" className="skills__subtitle">Profesional Skills</h2>
+                    <h2  data-aos="fade-up" className="skills__subtitle">Professional Skills</h2>
                     <p data-aos="fade-up">These are some of the technologies that I have worked on and built projects with.</p>
                 </div>
                 <div class="new-skills-grid">
@@ -29,7 +29,7 @@ const SkillsSections =()=> {
                         <Skill_Item icon={"mdi:react"} name="React.js"/>
                         <Skill_Item icon={"cib:redux"} name="Redux"/>
                         <Skill_Item icon={"file-icons:nextjs"} name="Next.js"/>
-                        <Skill_Item icon={"cib:mysql"} name="MMySQL"/>
+                        <Skill_Item icon={"cib:mysql"} name="MySQL"/>
                         <Skill_Item icon={"cib:mongodb"} name="MongoDB"/>
                 </div>
             </section>
