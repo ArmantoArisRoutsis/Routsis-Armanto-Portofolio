@@ -42,12 +42,12 @@ const WorkSection =()=> {
                         The Client part of the website was created mainly using React.js. For the styling I used plain CSS for the most part except for
                         some of the scroll animations for which I used the React Aos library. The Backend API was made using Node.js & 
                         Express.js. Finally the I chose MongoDB as the database to store all the information.</p>}
-                        githubLink = {"https://github.com/ArmantoArisRoutsis/Wetheria"}
+                        githubLink = {"https://github.com/ArmantoArisRoutsis/The-Monster-Library"}
                         liveLink = {"https://the-monster-library.web.app/fechedmons"}
                     />
 
                     <ProjectCard
-                        title={"Portofolio Website"}
+                        title={"Portfolio Website"}
                         imageFloat="right"
                         imageLink={"/Assets/projectImages/PortofolioWebsite.png"}
                         info={<p>This is the second Version of my portfolio. Both this version and the previous one look identical with 
