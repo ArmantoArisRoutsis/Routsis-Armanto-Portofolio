@@ -17,7 +17,7 @@ function HomeSection() {
             </div>
             <div>
             <a href="#contact" class="button">Contact me</a>
-            <a target="_blank" href="/Assets/CV/Armanto Routsis - Resume.pdf"  class="button">My resume</a>
+            <a target="_blank" href="/Assets/Resume/Armanto Routsis - Resume.pdf"  class="button">My resume</a>
             </div>
             <div class="home-icons">
                 <a target="_blank" href="https://github.com/ArmantoArisRoutsis">

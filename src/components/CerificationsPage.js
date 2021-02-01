@@ -10,7 +10,7 @@ const CerificationsPage = () => {
 
                 <TitleWithParaghraph
                 title="Certifications"
-                paragraph="This is a small section about some of my achivements. These certifications are not in any way proof of my skills and my abilities. But they are an indication of
+                paragraph="This is a small section about some of my achivements. These certifications are an indication of
                          the time, effort and dedication that I have put outside of education, work and personal life into learning 
                          new skills that interest me. A lot of these courses and programs have helped me extend my knowledge and 
                          understanding of certain technologies and build many projects along the way."
