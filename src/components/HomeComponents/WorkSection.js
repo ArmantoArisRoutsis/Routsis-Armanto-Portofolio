@@ -95,8 +95,27 @@ const WorkSection =()=> {
                     />
 
                     <ProjectCard
+                        title={"Movie Base"}
+                        imageFloat={"left"}
+                        imageLink={"/Assets/projectImages/Movie-Base.png"}
+                        info={<p>This application allows users to search for movies and series and view relevant information. 
+                        The users can also save movies to their "to-watch-list" and later on removing them if they wish to do so. 
+                        Finally the users have the option of a dark or light theme depending on their preference.<br/><br/>
+                        This web application was created using Vue. JS for the most part. Many of the functions as well as certain 
+                        information are stored using the VueX state management library in order to make them available throughout the 
+                        whole application and avoid prop drilling and repetition. Most animations that can be seen on the website are a 
+                        combination of CSS and DOM manipulation reacting to the changes of certain values stored in the VueX store. All 
+                        of the movie/series information is fetched by utilizing the Open Movies Database API. The way the application saves 
+                        data is by utilizing the local storage and by manipulating the way data is stored. Most of the things displayed are 
+                        split into separate components in order to avoid repetition.
+                        </p>}
+                        githubLink = {"https://github.com/ArmantoArisRoutsis/Movies-App"}
+                        liveLink = {"https://movie-base-watch.web.app/"}
+                    />
+
+                    <ProjectCard
                         title={"To Do List"}
-                        imageFloat="left"
+                        imageFloat="right"
                         imageLink={"/Assets/projectImages/ToDoList.png"}
                         info={<p>This is my Version of the classic To-Do-List. The application allows the users to add 
                         and remove items from "a default list". Aside from that the user 
@@ -111,7 +130,7 @@ const WorkSection =()=> {
                     
                     <ProjectCard
                         title={"Bitcoin Price Tracker"}
-                        imageFloat={"right"}
+                        imageFloat={"left"}
                         imageLink={"/Assets/projectImages/BitCoinTracker.png"}
                         info={<p>This is a little project that I made in order to better understand the 
                         Next.js framework. The application utilizes the CoinDesk Bitcoin Price Index 
