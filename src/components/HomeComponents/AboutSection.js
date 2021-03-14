@@ -18,7 +18,7 @@ const AboutSection = () => {
           <h2 class="about__subtitle">Who am I?</h2>
           <p class="about__text">I'm a Software Developer based in Athens, Greece. I'm also an Artist, a Language enthusiast, a traveler and a gamer.<br/><br/>
           I've always had a big interest in programming. It started with me trying to create video games with RPGmaker when I was 14 years old. Eventually I ended up choosing programming as my educational 
-          path after finishing High School and now I am looking to make my passion for programming and Software Development my career.</p>           
+          path after finishing High School and at this moment I am working as a Front End Developer.</p>           
         </div>                                   
       </div>
     </section>
