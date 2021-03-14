@@ -1,21 +1,20 @@
 import React, {useEffect} from 'react';
 import Aos from 'aos';
-import "aos/dist/aos.css";
 
-const Skill_Item =(props)=> {
+const Skill_Item =({name, icon})=> {
 
-    useEffect(() => {
-        Aos.init({duration:2000});
-    }, [])
+  useEffect(() => {
+    Aos.init({duration:2000});
+  }, []);
 
-    return (
-        <div data-aos="fade-up" class="skills__data">
-            <div class="skills__names">
-                <span class="iconify" data-icon={props.icon} data-inline="false"></span>
-                 <span class="skills__name">{props.name}</span>
-            </div>
-        </div>
-    )
-}
+  return (
+    <div data-aos="fade-up" class="skills__data">
+      <div class="skills__names">
+        <span class="iconify" data-icon={icon} data-inline="false"></span>
+        <span class="skills__name">{name}</span>
+      </div>
+    </div>
+  );
+};
 
-export default Skill_Item
+export default Skill_Item;
