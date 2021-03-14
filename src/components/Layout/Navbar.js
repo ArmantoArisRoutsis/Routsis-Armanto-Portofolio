@@ -4,7 +4,7 @@ import NavLinks from '../NavigationComponents/NavLinks';
 import SideDrawer from '../Shared/SideDrawer';
 import Backdrop from '../Shared/Backdrop';
 
-const Navbar = () =>{
+const Navbar = () => {
 
   // This part is related to the how the side bar/navigation will operate
   const [drawerIsOpen, setDrawerIsOpen] = useState(false);
@@ -44,8 +44,7 @@ const Navbar = () =>{
           </div>
       </nav>
     </header>
-    );
-
+  );
 }
 
 export default Navbar;
