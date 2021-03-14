@@ -1,12 +1,14 @@
-import React from "react"
-import {BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
+import React from 'react'
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
-import Navbar from "./components/Navbar"
-import Footer from "./components/Footer"
-import HomePage from "./components/HomePage"
-import CerificationsPage from "./components/CerificationsPage"
+import Navbar from './components/Layout/Navbar';
+import Footer from './components/Layout/Footer';
+import HomePage from './components/Pages/HomePage';
+import CerificationsPage from "./components/Pages/CerificationsPage";
 
-const App =()=> {
+import "aos/dist/aos.css";
+
+const App = () => {
 
   return (
     <Router>
