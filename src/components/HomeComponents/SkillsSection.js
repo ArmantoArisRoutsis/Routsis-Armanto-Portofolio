@@ -29,7 +29,7 @@ const SkillsSections =()=> {
         <Skill_Item icon={"uil:vuejs-alt"} name="Vue.js"/>
         <Skill_Item icon={"cib:mysql"} name="MySQL"/>
         <Skill_Item icon={"cib:mongodb"} name="MongoDB"/>
-        <Skill_Item icon={"file-icons:jest"} name="React Testing Library"/>
+        <Skill_Item icon={"file-icons:jest"} name="Jest"/>
         <Skill_Item icon={"simple-icons:testinglibrary"} name="React Testing Library"/>
       </div>
     </section>
