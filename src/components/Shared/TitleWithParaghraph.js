@@ -8,9 +8,9 @@ const TitleWithParaghraph = (props) => {
     }, [])
     return (
         <>
-            <h2  data-aos="fade-up" class="section-title work__container">{props.title}</h2>
-                <div class="skills-info">
-                    <p data-aos="fade-up" class="skills__text">{props.paragraph}</p>
+            <h2  data-aos="fade-up" className="section-title work__container">{props.title}</h2>
+                <div className="skills-info">
+                    <p data-aos="fade-up" className="skills__text">{props.paragraph}</p>
                 </div>
         </>
 
