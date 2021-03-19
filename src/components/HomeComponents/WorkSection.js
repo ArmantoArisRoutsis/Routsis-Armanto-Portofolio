@@ -54,7 +54,8 @@ const WorkSection =()=> {
         <a target="_blank" className="embeded-link" href="https://armantoarisroutsis.github.io/Routsis_Armanto-Portofolio/"> this link</a>). <br/><br/>
         For this version I remade the majority of the portfolio with React instead. All the sections, the Navigation bar and the footer are split 
         into components. Then some parts of some sections are also made into components for easier management and for reusability purposes.
-        For some of the animations I used the React AOS library and for others I just used plain CSS.</p>}
+        For some of the animations I used the React AOS library and for others I just used plain CSS. Finally I used jest and the React Testing 
+        Library to test the rendering and functionality of most of the components.</p>}
         githubLink = {"https://github.com/ArmantoArisRoutsis/Routsis-Armanto-Portofolio"}
         liveLink = {"https://routsis-armanto.web.app"}
       />
