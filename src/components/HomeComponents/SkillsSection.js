@@ -16,7 +16,7 @@ const SkillsSections =()=> {
         <h2  data-aos="fade-up" className="skills__subtitle">Professional Skills</h2>
         <p data-aos="fade-up">These are some of the technologies that I have worked on and built projects with.</p>
       </div>
-      <div class="new-skills-grid">
+      <div className="new-skills-grid">
         <Skill_Item icon={"ant-design:html5-filled"} name="HTML5"/>
         <Skill_Item icon={"uil:html3"} name="CSS3"/>
         <Skill_Item icon={"fa-brands:js-square"} name="JavaScript"/>

@@ -9,10 +9,10 @@ const Skill_Item =(props)=> {
     }, [])
 
     return (
-        <div data-aos="fade-up" class="skills__data">
-            <div class="skills__names">
-                <span class="iconify" data-icon={props.icon} data-inline="false"></span>
-                 <span class="skills__name">{props.name}</span>
+        <div data-aos="fade-up" className="skills__data">
+            <div className="skills__names">
+                <span className="iconify" data-icon={props.icon} data-inline="false"></span>
+                 <span className="skills__name">{props.name}</span>
             </div>
         </div>
     )

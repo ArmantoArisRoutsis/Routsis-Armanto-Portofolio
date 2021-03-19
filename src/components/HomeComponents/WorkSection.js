@@ -10,8 +10,8 @@ const WorkSection =()=> {
   }, []);
 
   return (
-    <section class="work section" id="work">
-      <h2 class="section-title" data-aos="fade-up">Work</h2>
+    <section className="work section" id="work">
+      <h2 className="section-title" data-aos="fade-up">Work</h2>
 
       <ProjectCard
         title={"Bibliotopia"}
